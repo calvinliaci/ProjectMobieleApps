@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:Project_Weerstand_Koersel.Model"
+             x:Class="Project_Weerstand_Koersel.View.MainPage"
+             Title="{Binding Title}">
+
+    <VerticalStackLayout>
+        <Image Source="logo.png" HeightRequest="200" />
+    </VerticalStackLayout>
+    
+</ContentPage>

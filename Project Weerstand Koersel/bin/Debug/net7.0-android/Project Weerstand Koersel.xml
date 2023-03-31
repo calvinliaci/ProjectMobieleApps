@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Project Weerstand Koersel</name>
+    </assembly>
+    <members>
+        <member name="P:Project_Weerstand_Koersel.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.BaseViewModel.title"/>
+        </member>
+    </members>
+</doc>
