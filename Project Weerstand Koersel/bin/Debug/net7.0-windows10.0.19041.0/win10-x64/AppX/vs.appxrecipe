@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-31T09:50:52.807</Modified>
+      <Modified>2023-04-11T11:26:01.254</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-31T09:50:52.386</Modified>
+      <Modified>2023-04-11T11:26:00.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Project Weerstand Koersel.runtimeconfig.json">
       <PackagePath>Project Weerstand Koersel.runtimeconfig.json</PackagePath>
-      <Modified>2023-03-31T09:50:51.921</Modified>
+      <Modified>2023-04-11T11:26:00.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Project Weerstand Koersel.dll">
       <PackagePath>Project Weerstand Koersel.dll</PackagePath>
-      <Modified>2023-03-31T09:50:49.967</Modified>
+      <Modified>2023-04-11T11:25:58.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Project Weerstand Koersel.exe</PackagePath>
-      <Modified>2023-03-31T09:50:49.997</Modified>
+      <Modified>2023-04-11T11:25:58.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.4\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -944,7 +944,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Project Weerstand Koersel.deps.json">
       <PackagePath>Project Weerstand Koersel.deps.json</PackagePath>
-      <Modified>2023-03-31T09:50:52.605</Modified>
+      <Modified>2023-04-11T11:26:01.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -964,23 +964,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-03-31T09:48:14.196</Modified>
+      <Modified>2023-03-31T09:52:38.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-03-31T09:48:14.211</Modified>
+      <Modified>2023-03-31T09:52:38.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-03-31T09:48:14.230</Modified>
+      <Modified>2023-03-31T09:52:38.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-03-31T09:48:14.258</Modified>
+      <Modified>2023-03-31T09:52:38.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-03-31T09:48:14.387</Modified>
+      <Modified>2023-03-31T09:52:38.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -992,187 +992,187 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-03-31T09:50:43.526</Modified>
+      <Modified>2023-03-31T09:52:38.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.759</Modified>
+      <Modified>2023-03-31T09:52:39.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.770</Modified>
+      <Modified>2023-03-31T09:52:39.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.779</Modified>
+      <Modified>2023-03-31T09:52:39.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.795</Modified>
+      <Modified>2023-03-31T09:52:39.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.853</Modified>
+      <Modified>2023-03-31T09:52:39.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.592</Modified>
+      <Modified>2023-03-31T09:52:38.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.594</Modified>
+      <Modified>2023-03-31T09:52:38.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.607</Modified>
+      <Modified>2023-03-31T09:52:38.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.597</Modified>
+      <Modified>2023-03-31T09:52:38.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.600</Modified>
+      <Modified>2023-03-31T09:52:38.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.572</Modified>
+      <Modified>2023-03-31T09:52:38.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.575</Modified>
+      <Modified>2023-03-31T09:52:38.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.589</Modified>
+      <Modified>2023-03-31T09:52:38.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.578</Modified>
+      <Modified>2023-03-31T09:52:38.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.581</Modified>
+      <Modified>2023-03-31T09:52:38.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.535</Modified>
+      <Modified>2023-03-31T09:52:38.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.538</Modified>
+      <Modified>2023-03-31T09:52:38.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.541</Modified>
+      <Modified>2023-03-31T09:52:38.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.545</Modified>
+      <Modified>2023-03-31T09:52:38.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.550</Modified>
+      <Modified>2023-03-31T09:52:38.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.553</Modified>
+      <Modified>2023-03-31T09:52:38.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.556</Modified>
+      <Modified>2023-03-31T09:52:38.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.569</Modified>
+      <Modified>2023-03-31T09:52:38.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.559</Modified>
+      <Modified>2023-03-31T09:52:38.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.562</Modified>
+      <Modified>2023-03-31T09:52:38.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.650</Modified>
+      <Modified>2023-03-31T09:52:38.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.655</Modified>
+      <Modified>2023-03-31T09:52:38.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.661</Modified>
+      <Modified>2023-03-31T09:52:38.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.668</Modified>
+      <Modified>2023-03-31T09:52:38.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.684</Modified>
+      <Modified>2023-03-31T09:52:38.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.628</Modified>
+      <Modified>2023-03-31T09:52:38.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.631</Modified>
+      <Modified>2023-03-31T09:52:38.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.635</Modified>
+      <Modified>2023-03-31T09:52:38.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.639</Modified>
+      <Modified>2023-03-31T09:52:38.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.646</Modified>
+      <Modified>2023-03-31T09:52:38.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.610</Modified>
+      <Modified>2023-03-31T09:52:38.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.613</Modified>
+      <Modified>2023-03-31T09:52:38.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.616</Modified>
+      <Modified>2023-03-31T09:52:38.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.619</Modified>
+      <Modified>2023-03-31T09:52:38.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.625</Modified>
+      <Modified>2023-03-31T09:52:38.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.692</Modified>
+      <Modified>2023-03-31T09:52:38.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.702</Modified>
+      <Modified>2023-03-31T09:52:38.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.710</Modified>
+      <Modified>2023-03-31T09:52:38.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.721</Modified>
+      <Modified>2023-03-31T09:52:38.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.751</Modified>
+      <Modified>2023-03-31T09:52:39.044</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\ball.scale-100.png">
       <PackagePath>ball.scale-100.png</PackagePath>
@@ -1180,23 +1180,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.504</Modified>
+      <Modified>2023-03-31T09:52:38.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.514</Modified>
+      <Modified>2023-03-31T09:52:38.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.526</Modified>
+      <Modified>2023-03-31T09:52:38.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.545</Modified>
+      <Modified>2023-03-31T09:52:38.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-03-31T09:50:43.591</Modified>
+      <Modified>2023-03-31T09:52:38.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group.scale-100.png">
       <PackagePath>group.scale-100.png</PackagePath>

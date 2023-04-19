@@ -2,11 +2,26 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Project_Weerstand_Koersel.View.PlayersPage"
-             Title="PlayersPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             xmlns:model="clr-namespace:Project_Weerstand_Koersel.Model"
+             xmlns:viewmodel="clr-namespace:Project_Weerstand_Koersel.ViewModel"
+             x:DataType="viewmodel:PlayersPageViewModel"
+             Title="{Binding Title}">
+
+
+    <ContentPage.Content>
+        <ListView x:Name="SpelersListView" ItemsSource="{Binding Spelers}">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="model:Speler">
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="5">
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="{Binding FirstName}" FontSize="Medium" />
+                                <Label Text="{Binding LastName}" FontSize="Medium" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
 </ContentPage>
