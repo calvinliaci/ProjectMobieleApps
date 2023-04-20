@@ -7,41 +7,49 @@
              x:DataType="viewmodel:PlayersPageViewModel"
              Title="{Binding Title}">
 
+        <Grid
+        RowDefinitions="*,Auto"
+        RowSpacing="0">
+            <VerticalStackLayout>
 
-    <VerticalStackLayout>
-
-        <CollectionView ItemsSource="{Binding Spelers}"
-                         SelectionMode="None">
-            <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="model:Speler">
-                    <Grid Padding="10">
-                        <Frame HeightRequest="100" Style="{StaticResource CardView}">
-                            <Grid Padding="0" ColumnDefinitions="125, *">
-                                <Image Aspect="AspectFill" Source="group.png"
-                                       WidthRequest="100"
-                                       HeightRequest="100"/>
-                                <VerticalStackLayout
-                                    Grid.Column="1"
-                                    VerticalOptions="Center"
-                                    Padding="10">
-                                    <Label Style="{StaticResource LargeLabel}" Text="{Binding FirstName}" />
-                                    <Label Style="{StaticResource LargeLabel}" Text="{Binding LastName}" />
-                                </VerticalStackLayout>
+                <CollectionView ItemsSource="{Binding Spelers}"
+                             SelectionMode="None">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Speler">
+                            <Grid Padding="10">
+                                <Frame HeightRequest="100" Style="{StaticResource CardView}">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayersPageViewModel}}, Path=GoToDetailsCommand}"
+                                            CommandParameter="{Binding .}"/>
+                                    </Frame.GestureRecognizers>
+                                    <Grid Padding="0" ColumnDefinitions="125, *">
+                                        <Image Aspect="AspectFill" Source="group.png"
+                                           WidthRequest="100"
+                                           HeightRequest="100"/>
+                                        <VerticalStackLayout
+                                        Grid.Column="1"
+                                        VerticalOptions="Center"
+                                        Padding="10">
+                                            <Label Style="{StaticResource LargeLabel}" Text="{Binding FirstName}" />
+                                            <Label Style="{StaticResource LargeLabel}" Text="{Binding LastName}" />
+                                        </VerticalStackLayout>
+                                    </Grid>
+                                </Frame>
                             </Grid>
-                        </Frame>
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
 
 
 
 
-        <Button Text="Get Players" 
-                Command="{Binding GetSpelersCommand}"
-                Grid.Row="1"
-                Grid.Column="0"
-                Style="{StaticResource ButtonOutline}"
-                Margin="8"/>
-    </VerticalStackLayout>
+                <Button Text="Get Players" 
+                    Command="{Binding GetSpelersCommand}"
+                    Grid.Row="1"
+                    Style="{StaticResource ButtonOutline}"
+                    Margin="8"/>
+
+            </VerticalStackLayout>
+        </Grid>
 </ContentPage>

@@ -2,6 +2,7 @@
 using Microsoft.Maui.Networking;
 using Project_Weerstand_Koersel.Model;
 using Project_Weerstand_Koersel.Service;
+using Project_Weerstand_Koersel.View;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -9,6 +10,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace Project_Weerstand_Koersel.ViewModel
 {
@@ -26,13 +28,6 @@ namespace Project_Weerstand_Koersel.ViewModel
             this.connectivity = connectivity;
 
             Title = "Player Page";
-            var spelers = spelerService.GetAllSpelers();
-
-            if (Spelers.Count != 0)
-                Spelers.Clear();
-
-            foreach (var speler in spelers)
-                Spelers.Add(speler);
         }
 
         [RelayCommand]
@@ -68,6 +63,18 @@ namespace Project_Weerstand_Koersel.ViewModel
             {
                 IsBusy = false;
             }
+        }
+
+        [RelayCommand]
+        async Task GoToDetails(Speler speler)
+        {
+            if (speler == null)
+                return;
+
+            await Shell.Current.GoToAsync(nameof(PlayerDetailPage), true, new Dictionary<string, object>
+                {
+                    {"Speler", speler}
+                });
         }
     }
 

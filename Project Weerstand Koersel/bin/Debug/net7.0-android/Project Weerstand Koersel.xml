@@ -16,5 +16,11 @@
         <member name="P:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.GetSpelersCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.GetSpelersAsync"/>.</summary>
         </member>
+        <member name="F:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.goToDetailsCommand">
+            <summary>The backing field for <see cref="P:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.GoToDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.GoToDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.GoToDetails(Project_Weerstand_Koersel.Model.Speler)"/>.</summary>
+        </member>
     </members>
 </doc>

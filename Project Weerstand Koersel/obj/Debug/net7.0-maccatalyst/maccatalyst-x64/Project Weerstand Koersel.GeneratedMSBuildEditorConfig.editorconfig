@@ -46,6 +46,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.
 build_metadata.AdditionalFiles.TargetPath = View\MatchesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MatchesPage.xaml
 
+[D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/View/PlayerDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.View.PlayerDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\PlayerDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\PlayerDetailPage.xaml
+
 [D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/View/PlayersPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.View.PlayersPage.xaml

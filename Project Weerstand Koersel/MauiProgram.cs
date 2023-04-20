@@ -25,6 +25,7 @@ public static class MauiProgram
 
         builder.Services.AddSingleton<MainPage>();
 		builder.Services.AddSingleton<PlayersPage>();
+        builder.Services.AddSingleton<PlayerDetailPage>();
 
         builder.Services.AddSingleton<IConnectivity>(Connectivity.Current);
 
