@@ -8,20 +8,40 @@
              Title="{Binding Title}">
 
 
-    <ContentPage.Content>
-        <ListView x:Name="SpelersListView" ItemsSource="{Binding Spelers}">
-            <ListView.ItemTemplate>
+    <VerticalStackLayout>
+
+        <CollectionView ItemsSource="{Binding Spelers}"
+                         SelectionMode="None">
+            <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="model:Speler">
-                    <ViewCell>
-                        <StackLayout Orientation="Horizontal" Padding="5">
-                            <StackLayout HorizontalOptions="StartAndExpand">
-                                <Label Text="{Binding FirstName}" FontSize="Medium" />
-                                <Label Text="{Binding LastName}" FontSize="Medium" />
-                            </StackLayout>
-                        </StackLayout>
-                    </ViewCell>
+                    <Grid Padding="10">
+                        <Frame HeightRequest="100" Style="{StaticResource CardView}">
+                            <Grid Padding="0" ColumnDefinitions="125, *">
+                                <Image Aspect="AspectFill" Source="group.png"
+                                       WidthRequest="100"
+                                       HeightRequest="100"/>
+                                <VerticalStackLayout
+                                    Grid.Column="1"
+                                    VerticalOptions="Center"
+                                    Padding="10">
+                                    <Label Style="{StaticResource LargeLabel}" Text="{Binding FirstName}" />
+                                    <Label Style="{StaticResource LargeLabel}" Text="{Binding LastName}" />
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Grid>
                 </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </ContentPage.Content>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+
+
+        <Button Text="Get Players" 
+                Command="{Binding GetSpelersCommand}"
+                Grid.Row="1"
+                Grid.Column="0"
+                Style="{StaticResource ButtonOutline}"
+                Margin="8"/>
+    </VerticalStackLayout>
 </ContentPage>

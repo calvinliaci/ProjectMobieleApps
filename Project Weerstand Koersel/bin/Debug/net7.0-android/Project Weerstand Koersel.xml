@@ -7,5 +7,14 @@
         <member name="P:Project_Weerstand_Koersel.ViewModel.BaseViewModel.Title">
             <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.BaseViewModel.title"/>
         </member>
+        <member name="P:Project_Weerstand_Koersel.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.BaseViewModel.isBusy"/>
+        </member>
+        <member name="F:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.getSpelersCommand">
+            <summary>The backing field for <see cref="P:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.GetSpelersCommand"/>.</summary>
+        </member>
+        <member name="P:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.GetSpelersCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.GetSpelersAsync"/>.</summary>
+        </member>
     </members>
 </doc>

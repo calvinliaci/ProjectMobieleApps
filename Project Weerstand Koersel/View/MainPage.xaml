@@ -6,7 +6,7 @@
              Title="{Binding Title}">
 
     <VerticalStackLayout>
-        <Image Source="logo.png" HeightRequest="200" />
+        <Image Source="logo.png" HeightRequest="200" Margin="10"/>
     </VerticalStackLayout>
     
 </ContentPage>

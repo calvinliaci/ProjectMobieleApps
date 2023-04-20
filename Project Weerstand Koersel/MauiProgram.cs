@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Project_Weerstand_Koersel.Service;
 using Project_Weerstand_Koersel.View;
 using Project_Weerstand_Koersel.ViewModel;
 
@@ -17,8 +18,16 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-        builder.Services.AddSingleton<MainPage>();
+		builder.Services.AddSingleton<ISpelerService, SpelerService>();
+
         builder.Services.AddTransient<MainPageViewModel>();
+		builder.Services.AddSingleton<PlayersPageViewModel>();
+
+        builder.Services.AddSingleton<MainPage>();
+		builder.Services.AddSingleton<PlayersPage>();
+
+        builder.Services.AddSingleton<IConnectivity>(Connectivity.Current);
+
 
         return builder.Build();
 	}
