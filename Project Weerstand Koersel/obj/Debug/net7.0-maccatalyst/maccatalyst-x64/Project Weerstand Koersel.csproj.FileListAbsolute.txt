@@ -258,7 +258,13 @@ D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Weerstand Koersel\Project Weerstan
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Weerstand Koersel\Project Weerstand Koersel\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\Project Weerstand Koersel.pdb
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Weerstand Koersel\Project Weerstand Koersel\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\Project Weerstand Koersel.genruntimeconfig.cache
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Weerstand Koersel\Project Weerstand Koersel\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\Project Weerstand Koersel.dll
-D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.dylib
+D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Console.dll
+D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Data.Common.dll
+D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Linq.Expressions.dll
+D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebClient.dll
+D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.dll
+D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Numerics.dll
+D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Private.CoreLib.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
@@ -341,9 +347,7 @@ D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ComponentModel.TypeConverter.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ComponentModel.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Configuration.dll
-D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Console.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Core.dll
-D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Data.Common.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Data.DataSetExtensions.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Data.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Contracts.dll
@@ -379,7 +383,6 @@ D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Pipes.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.UnmanagedMemoryStream.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.dll
-D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Linq.Expressions.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Linq.Parallel.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Linq.Queryable.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Linq.dll
@@ -397,14 +400,11 @@ D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Security.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.ServicePoint.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Sockets.dll
-D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebClient.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebHeaderCollection.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebProxy.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.Client.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.dll
-D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Numerics.Vectors.dll
-D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Numerics.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ObjectModel.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Private.DataContractSerialization.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Private.Uri.dll
@@ -495,7 +495,6 @@ D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.Xaml.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
-D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Private.CoreLib.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt.dat
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt_CJK.dat
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt_EFIGS.dat
@@ -518,6 +517,7 @@ D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmono-component-hot_reload-static.a
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmono-component-hot_reload-stub-static.a
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.a
+D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.dylib
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.registrar.a
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.a
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.dylib

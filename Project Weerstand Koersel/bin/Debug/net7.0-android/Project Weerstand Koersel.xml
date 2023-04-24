@@ -10,6 +10,9 @@
         <member name="P:Project_Weerstand_Koersel.ViewModel.BaseViewModel.IsBusy">
             <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.BaseViewModel.isBusy"/>
         </member>
+        <member name="P:Project_Weerstand_Koersel.ViewModel.PlayerDetailPageViewModel.Speler">
+            <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.PlayerDetailPageViewModel.speler"/>
+        </member>
         <member name="F:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.getSpelersCommand">
             <summary>The backing field for <see cref="P:Project_Weerstand_Koersel.ViewModel.PlayersPageViewModel.GetSpelersCommand"/>.</summary>
         </member>

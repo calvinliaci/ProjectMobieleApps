@@ -323,6 +323,7 @@ D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Weerstand Koersel\Project Weerstan
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Weerstand Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Weerstand Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Weerstand Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Private.CoreLib.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Project Weerstand Koersel.csproj.AssemblyReference.cache
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauifont.inputs
@@ -532,7 +533,6 @@ D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Numerics.Vectors.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Numerics.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.ObjectModel.dll
-D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Private.CoreLib.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Private.DataContractSerialization.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Private.Uri.dll
 D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Private.Xml.Linq.dll

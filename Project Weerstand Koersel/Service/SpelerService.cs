@@ -20,13 +20,14 @@ namespace Project_Weerstand_Koersel.Service
         {
             return (await firebaseClient.Child("Spelers").OnceAsync<Speler>()).Select(item => new Speler
             {
-                FirstName=item.Object.FirstName,
-                LastName=item.Object.LastName,
+                Name=item.Object.Name,
                 Age=item.Object.Age,
                 Position=item.Object.Position,
+                PositionSmall=item.Object.PositionSmall,
                 TotalAssists=item.Object.TotalAssists,
                 TotalGoals=item.Object.TotalGoals,
                 TotalGames=item.Object.TotalGames,
+                JerseyNumber=item.Object.JerseyNumber,
 
             }).ToList();
         }

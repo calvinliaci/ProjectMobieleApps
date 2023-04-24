@@ -18,14 +18,18 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-		builder.Services.AddSingleton<ISpelerService, SpelerService>();
+		builder.Services.AddTransient<ISpelerService, SpelerService>();
+        builder.Services.AddTransient<IMatchService, MatchService>();
 
         builder.Services.AddTransient<MainPageViewModel>();
-		builder.Services.AddSingleton<PlayersPageViewModel>();
+		builder.Services.AddTransient<PlayersPageViewModel>();
+		builder.Services.AddTransient<PlayerDetailPageViewModel>();
+        builder.Services.AddTransient<MatchesPageViewModel>();
 
-        builder.Services.AddSingleton<MainPage>();
-		builder.Services.AddSingleton<PlayersPage>();
-        builder.Services.AddSingleton<PlayerDetailPage>();
+        builder.Services.AddTransient<MainPage>();
+		builder.Services.AddTransient<PlayersPage>();
+        builder.Services.AddTransient<PlayerDetailPage>();
+        builder.Services.AddTransient<MatchesPage>();
 
         builder.Services.AddSingleton<IConnectivity>(Connectivity.Current);
 
