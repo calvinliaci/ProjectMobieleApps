@@ -14,8 +14,6 @@ namespace Project_Weerstand_Koersel.Service
     {
         FirebaseClient firebaseClient = new FirebaseClient(baseUrl: "https://project-weerstand-koersel-default-rtdb.europe-west1.firebasedatabase.app/");
 
-        public List<Speler> spelersList { get; set; } = new();
-
         public async Task<List<Speler>> GetAllSpelers()
         {
             return (await firebaseClient.Child("Spelers").OnceAsync<Speler>()).Select(item => new Speler

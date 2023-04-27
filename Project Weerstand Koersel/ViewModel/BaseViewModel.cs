@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project_Weerstand_Koersel.ViewModel
 {
-    public partial class BaseViewModel : ObservableObject
+    public abstract partial class BaseViewModel : ObservableObject
     {
         [ObservableProperty]
         public string title;
