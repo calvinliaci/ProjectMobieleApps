@@ -24,7 +24,7 @@
                             <Frame HeightRequest="25" Style="{StaticResource CardView}" Grid.Column="2">
                                 <Label Style="{StaticResource MediumLabel}" Text="{Binding ScoreSheet}" VerticalOptions="Center" HorizontalOptions="Center"/>
                             </Frame>
-                            <Image Source="logo.png"
+                            <Image Source="{Binding AwayTeamImage}"
                                    WidthRequest="25"
                                    HeightRequest="25" 
                                    VerticalOptions="Center"
