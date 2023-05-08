@@ -20,6 +20,7 @@ namespace Project_Weerstand_Koersel.Service
             {
                 Name=item.Object.Name,
                 Age=item.Object.Age,
+                Image=item.Object.Image,
                 Position=item.Object.Position,
                 PositionSmall=item.Object.PositionSmall,
                 TotalAssists=item.Object.TotalAssists,

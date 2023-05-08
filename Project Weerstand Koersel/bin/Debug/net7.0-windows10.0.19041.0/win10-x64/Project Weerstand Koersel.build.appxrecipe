@@ -610,6 +610,9 @@
     <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\firebasedatabase.net\4.2.0\lib\netstandard2.0\Firebase.dll">
       <PackagePath>Firebase.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\firebasestorage.net\1.0.3\lib\netstandard1.1\Firebase.Storage.dll">
+      <PackagePath>Firebase.Storage.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\litedb\4.1.4\lib\netstandard2.0\LiteDB.dll">
       <PackagePath>LiteDB.dll</PackagePath>
     </AppxPackagedFile>
@@ -705,6 +708,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\runtime.win7-x64.runtime.native.system.io.compression\4.3.0\runtimes\win7-x64\native\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Project Weerstand Koersel.deps.json">
       <PackagePath>Project Weerstand Koersel.deps.json</PackagePath>

@@ -12,6 +12,7 @@ namespace Project_Weerstand_Koersel.Model
     {
         public string Name { get; set; }
         public string Age { get; set; }
+        public string Image { get; set; }
         public string Position { get; set; }
         public string PositionSmall { get; set; }
         public string TotalGames { get; set; }

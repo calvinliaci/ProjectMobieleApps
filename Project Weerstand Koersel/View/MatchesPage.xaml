@@ -6,34 +6,30 @@
              xmlns:viewmodel="clr-namespace:Project_Weerstand_Koersel.ViewModel"
              x:DataType="viewmodel:MatchesPageViewModel"
              Title="{Binding Title}">
-    
-    
-    <CollectionView ItemsSource="{Binding Matches}"
-                             SelectionMode="None">
+
+
+    <CollectionView ItemsSource="{Binding Matches}" SelectionMode="None">
         <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="model:Match">
                 <Grid Padding="5">
                     <Frame HeightRequest="100" Style="{StaticResource CardView}" Grid.Row="0">
-                        <Grid Padding="10" ColumnDefinitions="125,25,*,25,125">
+                        <Grid Padding="10" ColumnDefinitions="125,30,*,30,125" RowDefinitions="60,25">
                             <Label Style="{StaticResource SmallLabel}" Text="{Binding HomeTeam}" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Start"/>
-                            <Image Source="{Binding HomeTeamImage}"
-                                   WidthRequest="25"
-                                   HeightRequest="25" 
-                                   VerticalOptions="Center"
-                                   Grid.Column="1"/>
-                            <Frame HeightRequest="25" Style="{StaticResource CardView}" Grid.Column="2">
-                                <Label Style="{StaticResource MediumLabel}" Text="{Binding ScoreSheet}" VerticalOptions="Center" HorizontalOptions="Center"/>
-                            </Frame>
-                            <Image Source="{Binding AwayTeamImage}"
-                                   WidthRequest="25"
-                                   HeightRequest="25" 
-                                   VerticalOptions="Center"
-                                   Grid.Column="3"/>
+                            <Image Source="{Binding HomeTeamImage}" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" Grid.Column="1"/>
+                            <Label Style="{StaticResource MediumLabel}" Text="{Binding ScoreSheet}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
+                            <Image Source="{Binding AwayTeamImage}" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" Grid.Column="3"/>
                             <Label Style="{StaticResource SmallLabel}" Text="{Binding AwayTeam}" Grid.Column="4" VerticalOptions="Center" HorizontalTextAlignment="End" HorizontalOptions="End"/>
+                            <Label Style="{StaticResource MicroLabel}" Text="{Binding Date}" Grid.ColumnSpan="5" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center"/>
                         </Grid>
+
                     </Frame>
                 </Grid>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
+
+
+
+
+
 </ContentPage>
