@@ -1,7 +1,7 @@
 @string/appbar_scrolling_view_behavior;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\154\jl\res\layout\fragment_backstack.xml
 @string/appbar_scrolling_view_behavior;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\154\jl\res\layout\navigationlayout.xml
-adaptive-icon;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-adaptive-icon;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+adaptive-icon;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon.xml
+adaptive-icon;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon_round.xml
 alpha;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\151\jl\res\anim\enterfromleft.xml
 alpha;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\151\jl\res\anim\exittoleft.xml
 alpha;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\154\jl\res\anim\nav_default_enter_anim.xml
@@ -15,8 +15,8 @@ androidx.fragment.app.FragmentContainerView;D:\UCLL\2de Fase Semester 2\.NET MUA
 androidx.fragment.app.FragmentContainerView;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\154\jl\res\layout\navigationlayout.xml
 attr;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\152\jl\res\values\attrs.xml
 attr;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\154\jl\res\values\attr.xml
-background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon.xml
+background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon_round.xml
 bitmap;obj\Debug\net7.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 bitmap;obj\Debug\net7.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 cache-path;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\155\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
@@ -32,8 +32,8 @@ declare-styleable;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project 
 declare-styleable;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\154\jl\res\values\attr.xml
 external-cache-path;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\155\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 external-path;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\155\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
-foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon.xml
+foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon_round.xml
 item;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\152\jl\res\values\styles.xml
 item;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\154\jl\res\drawable\maui_splash.xml
 item;D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-android\lp\154\jl\res\values\styles.xml

@@ -8272,7 +8272,7 @@ namespace Project_Weerstand_Koersel
 			public const int notify_panel_notification_icon_bg = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int splash = 2131165396;
+			public const int splashlogo = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
 			public const int test_level_drawable = 2131165397;
@@ -10512,16 +10512,16 @@ namespace Project_Weerstand_Koersel
 		{
 			
 			// aapt resource value: 0x7F0D0000
-			public const int appicon = 2131558400;
+			public const int icon = 2131558400;
 			
 			// aapt resource value: 0x7F0D0001
-			public const int appicon_background = 2131558401;
+			public const int icon_background = 2131558401;
 			
 			// aapt resource value: 0x7F0D0002
-			public const int appicon_foreground = 2131558402;
+			public const int icon_foreground = 2131558402;
 			
 			// aapt resource value: 0x7F0D0003
-			public const int appicon_round = 2131558403;
+			public const int icon_round = 2131558403;
 			
 			static Mipmap()
 			{

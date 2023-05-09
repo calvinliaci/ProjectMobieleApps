@@ -7,6 +7,9 @@
         <member name="P:Project_Weerstand_Koersel.ViewModel.BaseViewModel.Title">
             <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.BaseViewModel.title"/>
         </member>
+        <member name="P:Project_Weerstand_Koersel.ViewModel.BaseViewModel.HomeImage">
+            <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.BaseViewModel.homeImage"/>
+        </member>
         <member name="P:Project_Weerstand_Koersel.ViewModel.BaseViewModel.IsBusy">
             <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.BaseViewModel.isBusy"/>
         </member>

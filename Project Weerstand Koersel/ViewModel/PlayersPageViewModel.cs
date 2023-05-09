@@ -27,7 +27,7 @@ namespace Project_Weerstand_Koersel.ViewModel
             this.spelerService = spelerService;
             this.connectivity = connectivity;
 
-            Title = "Players";
+            Title = "Spelers";
         }
 
         [RelayCommand]

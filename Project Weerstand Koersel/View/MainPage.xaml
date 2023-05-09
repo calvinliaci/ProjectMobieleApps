@@ -4,9 +4,73 @@
              xmlns:model="clr-namespace:Project_Weerstand_Koersel.Model"
              x:Class="Project_Weerstand_Koersel.View.MainPage"
              Title="{Binding Title}">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <Image Source="{Binding HomeImage}" HeightRequest="150"/>
 
-    <VerticalStackLayout>
-        <Image Source="logo.png" HeightRequest="200" Margin="10"/>
-    </VerticalStackLayout>
-    
+            <Label Text="Club info" Style="{StaticResource LargeLabel}" HorizontalOptions="CenterAndExpand" Margin="0,20,0,0" />
+            <Rectangle WidthRequest="160" HeightRequest="2" Fill="#FF0000" />
+
+            <Label Text="Koninklijke Voetbal Vereniging Weerstand Koersel"  Style="{StaticResource SmallBoldLabel}" Margin="0,10,0,2" />
+            <Label Text="Gesticht in 1936" Style="{StaticResource SmallLabel}" Margin="10,0,0,2" />
+            <Label Text="Stamnummer 2428" Style="{StaticResource SmallLabel}" Margin="10,0,0,2" />
+            <Label Text="Ligging terreinen: Sportlaan - 3582 Koersel"  Style="{StaticResource SmallLabel}" Margin="10,0,0,2" />
+
+            <Label Text="Voorzitter:" Style="{StaticResource SmallBoldLabel}"  Margin="0,10,0,2" />
+            <Label Text="Jos Haegdorens" Style="{StaticResource SmallLabel}"   Margin="10,0,0,2"/>
+            <Label Text="0476/41 19 46" Style="{StaticResource SmallLabel}" Margin="10,0,0,2" />
+            <Label Text="jos.haegdorens@telenet.be"  Style="{StaticResource SmallLabel}" Margin="10,0,0,0" />
+
+            <Label Text="Kalender" Style="{StaticResource LargeLabel}" HorizontalOptions="CenterAndExpand" Margin="0,15,0,0" />
+            <Rectangle WidthRequest="160" HeightRequest="2" Fill="#FF0000" />
+
+            <HorizontalStackLayout>
+                <Label Text="24/04"  Style="{StaticResource SmallBoldLabel}" Margin="0,10,0,0" />
+                <Label Text="  -  Einde seizoen"  Style="{StaticResource SmallLabel}" Margin="0,10,0,0" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="30/04"  Style="{StaticResource SmallBoldLabel}" Margin="0,10,0,0" />
+                <Label Text="  -  Afsluting seizoen BBQ"  Style="{StaticResource SmallLabel}" Margin="0,10,0,0" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="20/05"  Style="{StaticResource SmallBoldLabel}" Margin="0,10,0,0" />
+                <Label Text="  -  Familiedag"  Style="{StaticResource SmallLabel}" Margin="0,10,0,0" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="12/06"  Style="{StaticResource SmallBoldLabel}" Margin="0,10,0,0" />
+                <Label Text="  -  Spaghettidag"  Style="{StaticResource SmallLabel}" Margin="0,10,0,0" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="14/07"  Style="{StaticResource SmallBoldLabel}" Margin="0,10,0,0" />
+                <Label Text="  -  Infodag nieuw seizoen"  Style="{StaticResource SmallLabel}" Margin="0,10,0,0" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="21/07"  Style="{StaticResource SmallBoldLabel}" Margin="0,10,0,0" />
+                <Label Text="  -  Start nieuwe seizoen"  Style="{StaticResource SmallLabel}" Margin="0,10,0,0" />
+            </HorizontalStackLayout>
+
+            <Label Text="Sponsors" Style="{StaticResource LargeLabel}" HorizontalOptions="CenterAndExpand" Margin="0,20,0,0" />
+            <Rectangle WidthRequest="160" HeightRequest="2" Fill="#FF0000" />
+
+            <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*,*" Margin="0,7,0,0" >
+
+                <Image Grid.Row="0" Grid.Column="0" Source="{Binding Sponsor1}" HeightRequest="65"/>
+                <Image Grid.Row="0" Grid.Column="1" Source="{Binding Sponsor2}" HeightRequest="65" />
+                <Image Grid.Row="0" Grid.Column="2" Source="{Binding Sponsor3}" HeightRequest="65" />
+                <Image Grid.Row="0" Grid.Column="3" Source="{Binding Sponsor4}" HeightRequest="50" />
+
+                <Image Grid.Row="1" Grid.Column="0" Source="{Binding Sponsor5}" Margin="5,0,0,0" WidthRequest="95"/>
+                <Image Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding Sponsor6}" HeightRequest="55"/>
+                <Image Grid.Row="1" Grid.Column="3" Source="{Binding Sponsor7}" Margin="0,0,5,0" WidthRequest="95" />
+
+                <Image Grid.Row="2" Grid.Column="0" Source="{Binding Sponsor8}" Margin="5,0,0,0" WidthRequest="95"/>
+                <Image Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding Sponsor9}" HeightRequest="70"/>
+                <Image Grid.Row="2" Grid.Column="3" Source="{Binding Sponsor10}" Margin="0,0,5,0" WidthRequest="95" />
+
+                <Image Grid.Row="3" Grid.Column="0" Source="{Binding Sponsor11}" Margin="5,0,0,0" WidthRequest="95"/>
+                <Image Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding Sponsor12}" HeightRequest="55"/>
+                <Image Grid.Row="3" Grid.Column="3" Source="{Binding Sponsor13}" Margin="0,0,5,0" WidthRequest="95" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

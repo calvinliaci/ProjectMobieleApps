@@ -13,6 +13,9 @@ namespace Project_Weerstand_Koersel.ViewModel
         public string title;
 
         [ObservableProperty]
+        public string homeImage;
+
+        [ObservableProperty]
         [NotifyPropertyChangedFor(nameof(IsNotBusy))]
         public bool isBusy;
 
