@@ -8,63 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project_Weerstand_Koersel
-build_property.ProjectDir = D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\
+build_property.ProjectDir = D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\
 
-[D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/App.xaml]
+[D:/UCLL/2de Fase Semester 2/.NET MUAI/ProjectMobieleApps/Project Weerstand Koersel/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/AppShell.xaml]
+[D:/UCLL/2de Fase Semester 2/.NET MUAI/ProjectMobieleApps/Project Weerstand Koersel/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/Resources/Styles/Colors.xaml]
+[D:/UCLL/2de Fase Semester 2/.NET MUAI/ProjectMobieleApps/Project Weerstand Koersel/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/Resources/Styles/Styles.xaml]
+[D:/UCLL/2de Fase Semester 2/.NET MUAI/ProjectMobieleApps/Project Weerstand Koersel/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/View/AuthenticationPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.View.AuthenticationPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\AuthenticationPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\AuthenticationPage.xaml
-
-[D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/View/ChangeStatsPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.View.ChangeStatsPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ChangeStatsPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ChangeStatsPage.xaml
-
-[D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/View/MainPage.xaml]
+[D:/UCLL/2de Fase Semester 2/.NET MUAI/ProjectMobieleApps/Project Weerstand Koersel/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
 
-[D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/View/MatchesPage.xaml]
+[D:/UCLL/2de Fase Semester 2/.NET MUAI/ProjectMobieleApps/Project Weerstand Koersel/View/MatchesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.View.MatchesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MatchesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MatchesPage.xaml
 
-[D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/View/PlayerDetailPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.View.PlayerDetailPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\PlayerDetailPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\PlayerDetailPage.xaml
-
-[D:/UCLL/2de Fase Semester 2/.NET MUAI/Project Koersel/Project Weerstand Koersel/View/PlayersPage.xaml]
+[D:/UCLL/2de Fase Semester 2/.NET MUAI/ProjectMobieleApps/Project Weerstand Koersel/View/PlayersPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Project_Weerstand_Koersel.View.PlayersPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\PlayersPage.xaml

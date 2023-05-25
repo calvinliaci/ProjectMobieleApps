@@ -73183,11 +73183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UCLL\\2de Fase Semester 2\\.NET MUAI\\Project Koersel\\Project Weerstand Koersel\\Project Weerstand Koersel.csproj",
+      "projectUniqueName": "D:\\UCLL\\2de Fase Semester 2\\.NET MUAI\\ProjectMobieleApps\\Project Weerstand Koersel\\Project Weerstand Koersel.csproj",
       "projectName": "Project Weerstand Koersel",
-      "projectPath": "D:\\UCLL\\2de Fase Semester 2\\.NET MUAI\\Project Koersel\\Project Weerstand Koersel\\Project Weerstand Koersel.csproj",
+      "projectPath": "D:\\UCLL\\2de Fase Semester 2\\.NET MUAI\\ProjectMobieleApps\\Project Weerstand Koersel\\Project Weerstand Koersel.csproj",
       "packagesPath": "C:\\Users\\liaci\\.nuget\\packages\\",
-      "outputPath": "D:\\UCLL\\2de Fase Semester 2\\.NET MUAI\\Project Koersel\\Project Weerstand Koersel\\obj\\",
+      "outputPath": "D:\\UCLL\\2de Fase Semester 2\\.NET MUAI\\ProjectMobieleApps\\Project Weerstand Koersel\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -73619,24 +73619,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[7.0.4, 7.0.4]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[7.0.4, 7.0.4]"
-          },
-          {
-            "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.19041.28, 10.0.19041.28]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[7.0.4, 7.0.4]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.Maui.Controls": {
             "privateAssets": "all"
