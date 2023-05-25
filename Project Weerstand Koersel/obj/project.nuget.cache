@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oyJfL19AiprOcaJw/WFAc6b9AV5635OTNxWo52/S44epD+FSea52bQr+gHfNsdHUmGMioPLyAs4m5xiHbGc7uw==",
+  "dgSpecHash": "YxLWPIpMXhQLrxnOdqtUrA8Hl4+LrAhL2pWmTLUN+Q+Mpz80lQQJHIz3jqlLufvXI6ugUU3ob78A1wPTIhb4OQ==",
   "success": true,
   "projectFilePath": "D:\\UCLL\\2de Fase Semester 2\\.NET MUAI\\ProjectMobieleApps\\Project Weerstand Koersel\\Project Weerstand Koersel.csproj",
   "expectedPackageFiles": [
@@ -221,7 +221,11 @@
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk7\\1.7.20.1\\xamarin.kotlin.stdlib.jdk7.1.7.20.1.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.7.20.1\\xamarin.kotlin.stdlib.jdk8.1.7.20.1.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
-    "C:\\Users\\liaci\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512"
+    "C:\\Users\\liaci\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
+    "C:\\Users\\liaci\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
+    "C:\\Users\\liaci\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.4\\microsoft.aspnetcore.app.runtime.win-x64.7.0.4.nupkg.sha512",
+    "C:\\Users\\liaci\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.4.nupkg.sha512",
+    "C:\\Users\\liaci\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.4\\microsoft.netcore.app.runtime.win-x64.7.0.4.nupkg.sha512"
   ],
   "logs": []
 }

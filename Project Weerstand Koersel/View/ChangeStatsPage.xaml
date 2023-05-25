@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_Weerstand_Koersel.View.ChangeStatsPage"
+             Title="{Binding Title}">
+    <ContentPage.Content>
+        <Grid
+            BackgroundColor="{StaticResource Primary}"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Frame
+                Grid.Row="1"
+                Margin="0,0,0,-150"
+                BorderColor="{StaticResource DarkBackground}"
+                CornerRadius="50"
+                HasShadow="True"
+                HeightRequest="700">
+                <Grid
+                    Padding="20,50,20,0"
+                    HorizontalOptions="FillAndExpand"
+                    RowSpacing="20"
+                    VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Label
+                        Grid.Row="0"
+                        FontAttributes="Bold"
+                        Margin="0, -35, 0, 0"
+                        FontSize="24"
+                        HorizontalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        Text="Vul in om een speler toe te voegen!"
+                        TextColor="{StaticResource DarkBackground}" />
+                    <Label
+                        Grid.Row="1"
+                        Margin="0,-15,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Klik op toevoegen om verder te gaan!"
+                        TextColor="{StaticResource DarkBackground}" />
+                    <Entry
+                        Grid.Row="2"
+                        Margin="0,-8,0,0"
+                        HorizontalOptions="FillAndExpand"
+                        Placeholder="Full Name"
+                        Text="{Binding FullName}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="3"
+                        HorizontalOptions="FillAndExpand"
+                        Margin="0,-8,0,0"
+                        IsPassword="True"
+                        Placeholder="Age"
+                        Text="{Binding Age}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="4"
+                        Margin="0,-8,0,0"
+                        HorizontalOptions="FillAndExpand"
+                        Placeholder="Posisiton"
+                        Text="{Binding Position}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="5"
+                        HorizontalOptions="FillAndExpand"
+                        Margin="0,-8,0,0"
+                        IsPassword="True"
+                        Placeholder="Rugnummer"
+                        Text="{Binding JerseyNumber}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="6"
+                        Margin="0,-8,0,0"
+                        HorizontalOptions="FillAndExpand"
+                        Placeholder="Aantal Wedstrijden"
+                        Text="{Binding TotalGames}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="7"
+                        HorizontalOptions="FillAndExpand"
+                        Margin="0,-8,0,0"                        
+                        IsPassword="True"
+                        Placeholder="Aantal Doelpunten"
+                        Text="{Binding TotalGoals}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="8"
+                        HorizontalOptions="FillAndExpand"
+                        Margin="0,-8,0,0"                        
+                        IsPassword="True"
+                        Placeholder="Aantal Assisten"
+                        Text="{Binding TotalAssists}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="9"
+                        Margin="0,-8,0,0"
+                        HorizontalOptions="FillAndExpand"
+                        Placeholder="Image"
+                        Text="{Binding Image}"
+                        VerticalOptions="FillAndExpand" />
+                    <Button
+                        Grid.Row="11"
+                        BackgroundColor="{StaticResource DarkBackground}"
+                        Command="{Binding SendPlayerToDatabaseCommand}"
+                        CornerRadius="20"
+                        Text="Toevoegen" />
+                </Grid>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
