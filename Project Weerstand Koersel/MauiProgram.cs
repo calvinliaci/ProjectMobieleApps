@@ -20,6 +20,7 @@ public static class MauiProgram
 
 		builder.Services.AddTransient<ISpelerService, SpelerService>();
         builder.Services.AddTransient<IMatchService, MatchService>();
+        builder.Services.AddTransient<ISponsorService, SponsorService>();
 
         builder.Services.AddTransient<MainPageViewModel>();
 		builder.Services.AddTransient<PlayersPageViewModel>();

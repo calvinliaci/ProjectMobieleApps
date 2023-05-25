@@ -23,7 +23,7 @@ namespace Project_Weerstand_Koersel.ViewModel
 
         public AuthenticationPageViewModel()
         {
-            Title = "Login hier!";
+            Title = "";
         }
 
 
