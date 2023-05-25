@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:model="clr-namespace:Project_Weerstand_Koersel.Model"
              x:Class="Project_Weerstand_Koersel.View.MainPage"
+             xmlns:model="clr-namespace:Project_Weerstand_Koersel.Model"
+             xmlns:viewmodel="clr-namespace:Project_Weerstand_Koersel.ViewModel"
+             x:DataType="viewmodel:MainPageViewModel"
              Title="{Binding Title}">
     <ScrollView>
         <VerticalStackLayout Padding="10">
-            <Image Source="{Binding HomeImage}" HeightRequest="150"/>
+            <Image Source="logo.png" HeightRequest="150"/>
 
             <Label Text="Club info" Style="{StaticResource LargeLabel}" HorizontalOptions="CenterAndExpand" Margin="0,20,0,0" />
             <Rectangle WidthRequest="160" HeightRequest="2" Fill="#FF0000" />
@@ -52,9 +54,9 @@
             <Label Text="Sponsors" Style="{StaticResource LargeLabel}" HorizontalOptions="CenterAndExpand" Margin="0,20,0,0" />
             <Rectangle WidthRequest="160" HeightRequest="2" Fill="#FF0000" />
 
-            <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*,*" Margin="0,5,0,0">
+            <!--<Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*,*" Margin="0,5,0,0">
 
-                <Image Grid.Row="0" Grid.Column="0" Source="{Binding Sponsor1}" HeightRequest="65"/>
+                --><!--<Image Grid.Row="0" Grid.Column="0" Source="{Binding Sponsor1}" HeightRequest="65"/>
                 <Image Grid.Row="0" Grid.Column="1" Source="{Binding Sponsor2}" HeightRequest="65" />
                 <Image Grid.Row="0" Grid.Column="2" Source="{Binding Sponsor3}" HeightRequest="65" />
                 <Image Grid.Row="0" Grid.Column="3" Source="{Binding Sponsor4}" HeightRequest="50" />
@@ -69,7 +71,51 @@
 
                 <Image Grid.Row="3" Grid.Column="0" Source="{Binding Sponsor11}" Margin="5,0,0,0" HeightRequest="75"/>
                 <Image Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding Sponsor12}" HeightRequest="50"/>
-                <Image Grid.Row="3" Grid.Column="3" Source="{Binding Sponsor13}" Margin="0,0,5,0" HeightRequest="75" />
+                <Image Grid.Row="3" Grid.Column="3" Source="{Binding Sponsor13}" Margin="0,0,5,0" HeightRequest="75" />--><!--
+            </Grid>-->
+
+            
+            
+            
+            
+            <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*,*" Margin="0,5,0,0">
+                <CollectionView ItemsSource="{Binding Sponsors}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Sponsor">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Grid.Row="0" Grid.Column="0" Source="{Binding SponsorImage1}" HeightRequest="65"/>
+                                <Image Grid.Row="0" Grid.Column="1" Source="{Binding SponsorImage2}" HeightRequest="65" />
+                                <Image Grid.Row="0" Grid.Column="2" Source="{Binding SponsorImage3}" HeightRequest="65" />
+                                <Image Grid.Row="0" Grid.Column="3" Source="{Binding SponsorImage4}" HeightRequest="50" />
+
+                                <Image Grid.Row="1" Grid.Column="0" Source="{Binding SponsorImage5}" Margin="5,0,0,0" HeightRequest="55"/>
+                                <Image Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding SponsorImage6}" HeightRequest="55"/>
+                                <Image Grid.Row="1" Grid.Column="3" Source="{Binding SponsorImage7}" Margin="0,0,5,0" HeightRequest="75" />
+
+                                <Image Grid.Row="2" Grid.Column="0" Source="{Binding SponsorImage8}" Margin="5,0,0,0" HeightRequest="75"/>
+                                <Image Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding SponsorImage9}" HeightRequest="65"/>
+                                <Image Grid.Row="2" Grid.Column="3" Source="{Binding SponsorImage10}" Margin="0,0,5,0" HeightRequest="75" />
+
+                                <Image Grid.Row="3" Grid.Column="0" Source="{Binding SponsorImage11}" Margin="5,0,0,0" HeightRequest="75"/>
+                                <Image Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding SponsorImage12}" HeightRequest="50"/>
+                                <Image Grid.Row="3" Grid.Column="3" Source="{Binding SponsorImage13}" Margin="0,0,5,0" HeightRequest="75" />
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
             </Grid>
         </VerticalStackLayout>
     </ScrollView>
