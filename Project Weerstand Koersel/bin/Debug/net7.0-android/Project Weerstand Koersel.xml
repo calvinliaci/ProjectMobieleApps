@@ -19,6 +19,12 @@
         <member name="P:Project_Weerstand_Koersel.ViewModel.BaseViewModel.IsBusy">
             <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.BaseViewModel.isBusy"/>
         </member>
+        <member name="F:Project_Weerstand_Koersel.ViewModel.ChangeStatsPageViewModel.addPlayerToDatabaseCommand">
+            <summary>The backing field for <see cref="P:Project_Weerstand_Koersel.ViewModel.ChangeStatsPageViewModel.AddPlayerToDatabaseCommand"/>.</summary>
+        </member>
+        <member name="P:Project_Weerstand_Koersel.ViewModel.ChangeStatsPageViewModel.AddPlayerToDatabaseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Project_Weerstand_Koersel.ViewModel.ChangeStatsPageViewModel.AddPlayerToDatabase"/>.</summary>
+        </member>
         <member name="P:Project_Weerstand_Koersel.ViewModel.PlayerDetailPageViewModel.Speler">
             <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.PlayerDetailPageViewModel.speler"/>
         </member>
