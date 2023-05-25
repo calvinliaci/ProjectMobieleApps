@@ -14,6 +14,13 @@ namespace Project_Weerstand_Koersel.ViewModel
      {
         public string FullName { get; set; }
         public string Age { get; set; }
+        public string Image { get; set; }
+        public string Position { get; set; }
+        public string PositionSmall { get; set; }
+        public string TotalGames { get; set; }
+        public string TotalGoals { get; set; }
+        public string TotalAssists { get; set; }
+        public string JerseyNumber { get; set; }
 
         public ChangeStatsPageViewModel()
         {
@@ -29,7 +36,12 @@ namespace Project_Weerstand_Koersel.ViewModel
             {
                 Name = FullName,
                 Age = "Leeftijd: " + Age,
-                Position = "fef"
+                Position = "Positie: " + Position,
+                PositionSmall = Position,
+                JerseyNumber = "Positie: " + JerseyNumber,
+                TotalGames = "Wedstrijden: " + TotalGames,
+                TotalGoals = "Goals: " + TotalGoals,
+                TotalAssists = "Assists: " + TotalAssists,
             });
         }
      }
