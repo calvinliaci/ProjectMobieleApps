@@ -42,7 +42,7 @@
                 ContentTemplate="{DataTemplate local:PlayersPage}"
                 Route="ThreePage" />
         </Tab>
-        <Tab Title="Stats" Icon="auth.png">
+        <Tab Title="Voeg Toe" Icon="auth.png">
             <ShellContent
                 Title="Four"
                 ContentTemplate="{DataTemplate local:AuthenticationPage}"

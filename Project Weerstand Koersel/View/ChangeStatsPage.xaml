@@ -61,6 +61,7 @@
                     <Entry
                         Grid.Row="2"
                         Margin="0,-8,0,0"
+                        x:Name="name"
                         HorizontalOptions="FillAndExpand"
                         Placeholder="Full Name"
                         Text="{Binding FullName}"
@@ -83,7 +84,6 @@
                         Grid.Row="5"
                         HorizontalOptions="FillAndExpand"
                         Margin="0,-8,0,0"
-                        IsPassword="True"
                         Placeholder="Rugnummer"
                         Text="{Binding JerseyNumber}"
                         VerticalOptions="FillAndExpand" />
@@ -98,7 +98,6 @@
                         Grid.Row="7"
                         HorizontalOptions="FillAndExpand"
                         Margin="0,-8,0,0"                        
-                        IsPassword="True"
                         Placeholder="Aantal Doelpunten"
                         Text="{Binding TotalGoals}"
                         VerticalOptions="FillAndExpand" />
@@ -106,7 +105,6 @@
                         Grid.Row="8"
                         HorizontalOptions="FillAndExpand"
                         Margin="0,-8,0,0"                        
-                        IsPassword="True"
                         Placeholder="Aantal Assisten"
                         Text="{Binding TotalAssists}"
                         VerticalOptions="FillAndExpand" />

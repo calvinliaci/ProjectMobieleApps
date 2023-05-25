@@ -2,6 +2,7 @@
 using Firebase.Database;
 using Firebase.Database.Query;
 using Project_Weerstand_Koersel.Model;
+using Project_Weerstand_Koersel.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,6 +44,8 @@ namespace Project_Weerstand_Koersel.ViewModel
                 TotalGoals = "Goals: " + TotalGoals,
                 TotalAssists = "Assists: " + TotalAssists,
             });
+
+            Shell.Current.GoToAsync(nameof(PlayersPage));
         }
      }
 }
