@@ -4,6 +4,18 @@
         <name>Project Weerstand Koersel</name>
     </assembly>
     <members>
+        <member name="P:Project_Weerstand_Koersel.ViewModel.AuthenticationPageViewModel.Email">
+            <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.AuthenticationPageViewModel.email"/>
+        </member>
+        <member name="P:Project_Weerstand_Koersel.ViewModel.AuthenticationPageViewModel.UserPassword">
+            <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.AuthenticationPageViewModel.userPassword"/>
+        </member>
+        <member name="F:Project_Weerstand_Koersel.ViewModel.AuthenticationPageViewModel.loginToStatsAsyncCommand">
+            <summary>The backing field for <see cref="P:Project_Weerstand_Koersel.ViewModel.AuthenticationPageViewModel.LoginToStatsAsyncCommand"/>.</summary>
+        </member>
+        <member name="P:Project_Weerstand_Koersel.ViewModel.AuthenticationPageViewModel.LoginToStatsAsyncCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Project_Weerstand_Koersel.ViewModel.AuthenticationPageViewModel.LoginToStatsAsync"/>.</summary>
+        </member>
         <member name="P:Project_Weerstand_Koersel.ViewModel.BaseViewModel.Title">
             <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.BaseViewModel.title"/>
         </member>

@@ -25,11 +25,15 @@ public static class MauiProgram
 		builder.Services.AddTransient<PlayersPageViewModel>();
 		builder.Services.AddTransient<PlayerDetailPageViewModel>();
         builder.Services.AddTransient<MatchesPageViewModel>();
+        builder.Services.AddTransient<AuthenticationPageViewModel>();
+        builder.Services.AddTransient<ChangeStatsPageViewModel>();
 
         builder.Services.AddTransient<MainPage>();
 		builder.Services.AddTransient<PlayersPage>();
         builder.Services.AddTransient<PlayerDetailPage>();
         builder.Services.AddTransient<MatchesPage>();
+        builder.Services.AddTransient<AuthenticationPage>();
+        builder.Services.AddTransient<ChangeStatsPage>();
 
         builder.Services.AddSingleton<IConnectivity>(Connectivity.Current);
 

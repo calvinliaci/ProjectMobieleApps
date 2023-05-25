@@ -31,7 +31,16 @@
             </CollectionView>
         </ScrollView>
         <Button Text="Toon spelers" Command="{Binding GetSpelersCommand}" Grid.Row="1" Style="{StaticResource ButtonOutline}" Margin="8" />
+
+
+        <ActivityIndicator IsVisible="{Binding IsBusy}"
+                           IsRunning="{Binding IsBusy}"
+                           HorizontalOptions="Fill"
+                           VerticalOptions="Center"
+			   Color="{StaticResource Primary}"
+                           Grid.RowSpan="2"/>
     </Grid>
+    
 
 
 </ContentPage>

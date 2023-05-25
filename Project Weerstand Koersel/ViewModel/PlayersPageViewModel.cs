@@ -31,6 +31,7 @@ namespace Project_Weerstand_Koersel.ViewModel
         }
 
         [RelayCommand]
+
         async Task GetSpelersAsync()
         {
             if (IsBusy)

@@ -24,23 +24,29 @@
     </Shell.Resources>
 
     <TabBar>
-        <Tab Title="Startpagina" Icon="home">
+        <Tab Title="Startpagina" Icon="home.png">
             <ShellContent
                 Title="Homepage"
                 ContentTemplate="{DataTemplate local:MainPage}"
                 Route="MainPage"/>
         </Tab>
-        <Tab Title="Wedstrijden" Icon="ball">
+        <Tab Title="Wedstrijden" Icon="ball.png">
             <ShellContent
                 Title="Two"
                 ContentTemplate="{DataTemplate local:MatchesPage}"
                 Route="TwoPage" />
         </Tab>
-        <Tab Title="Spelers" Icon="group">
+        <Tab Title="Spelers" Icon="group.png">
             <ShellContent
                 Title="Three"
                 ContentTemplate="{DataTemplate local:PlayersPage}"
                 Route="ThreePage" />
+        </Tab>
+        <Tab Title="Stats" Icon="auth.png">
+            <ShellContent
+                Title="Four"
+                ContentTemplate="{DataTemplate local:AuthenticationPage}"
+                Route="FourPage" />
         </Tab>
     </TabBar>
 

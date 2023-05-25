@@ -14,12 +14,12 @@
             <Label Text="Koninklijke Voetbal Vereniging Weerstand Koersel"  Style="{StaticResource SmallBoldLabel}" Margin="0,10,0,2" />
             <Label Text="Gesticht in 1936" Style="{StaticResource SmallLabel}" Margin="10,0,0,2" />
             <Label Text="Stamnummer 2428" Style="{StaticResource SmallLabel}" Margin="10,0,0,2" />
-            <Label Text="Ligging terreinen: Sportlaan - 3582 Koersel"  Style="{StaticResource SmallLabel}" Margin="10,0,0,2" />
+            <Label Text="Sportlaan - 3582 Koersel"  Style="{StaticResource SmallLabel}" Margin="10,0,0,2" />
 
-            <Label Text="Voorzitter:" Style="{StaticResource SmallBoldLabel}"  Margin="0,10,0,2" />
-            <Label Text="Jos Haegdorens" Style="{StaticResource SmallLabel}"   Margin="10,0,0,2"/>
-            <Label Text="0476/41 19 46" Style="{StaticResource SmallLabel}" Margin="10,0,0,2" />
-            <Label Text="jos.haegdorens@telenet.be"  Style="{StaticResource SmallLabel}" Margin="10,0,0,0" />
+            <Label Text="Voorzitter" Style="{StaticResource SmallBoldLabel}" HorizontalTextAlignment="End" Margin="0,20,0,2" />
+            <Label Text="Jos Haegdorens" Style="{StaticResource SmallLabel}" HorizontalTextAlignment="End" Margin="0,0,10,2"/>
+            <Label Text="0476/41 19 46" Style="{StaticResource SmallLabel}" HorizontalTextAlignment="End" Margin="0,0,10,2" />
+            <Label Text="jos.haegdorens@telenet.be"  Style="{StaticResource SmallLabel}" HorizontalTextAlignment="End" Margin="0,0,10,0" />
 
             <Label Text="Kalender" Style="{StaticResource LargeLabel}" HorizontalOptions="CenterAndExpand" Margin="0,15,0,0" />
             <Rectangle WidthRequest="160" HeightRequest="2" Fill="#FF0000" />
@@ -52,24 +52,24 @@
             <Label Text="Sponsors" Style="{StaticResource LargeLabel}" HorizontalOptions="CenterAndExpand" Margin="0,20,0,0" />
             <Rectangle WidthRequest="160" HeightRequest="2" Fill="#FF0000" />
 
-            <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*,*" Margin="0,7,0,0" >
+            <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*,*" Margin="0,5,0,0">
 
                 <Image Grid.Row="0" Grid.Column="0" Source="{Binding Sponsor1}" HeightRequest="65"/>
                 <Image Grid.Row="0" Grid.Column="1" Source="{Binding Sponsor2}" HeightRequest="65" />
                 <Image Grid.Row="0" Grid.Column="2" Source="{Binding Sponsor3}" HeightRequest="65" />
                 <Image Grid.Row="0" Grid.Column="3" Source="{Binding Sponsor4}" HeightRequest="50" />
 
-                <Image Grid.Row="1" Grid.Column="0" Source="{Binding Sponsor5}" Margin="5,0,0,0" WidthRequest="95"/>
+                <Image Grid.Row="1" Grid.Column="0" Source="{Binding Sponsor5}" Margin="5,0,0,0" HeightRequest="55"/>
                 <Image Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding Sponsor6}" HeightRequest="55"/>
-                <Image Grid.Row="1" Grid.Column="3" Source="{Binding Sponsor7}" Margin="0,0,5,0" WidthRequest="95" />
+                <Image Grid.Row="1" Grid.Column="3" Source="{Binding Sponsor7}" Margin="0,0,5,0" HeightRequest="75" />
 
-                <Image Grid.Row="2" Grid.Column="0" Source="{Binding Sponsor8}" Margin="5,0,0,0" WidthRequest="95"/>
-                <Image Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding Sponsor9}" HeightRequest="70"/>
-                <Image Grid.Row="2" Grid.Column="3" Source="{Binding Sponsor10}" Margin="0,0,5,0" WidthRequest="95" />
+                <Image Grid.Row="2" Grid.Column="0" Source="{Binding Sponsor8}" Margin="5,0,0,0" HeightRequest="75"/>
+                <Image Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding Sponsor9}" HeightRequest="65"/>
+                <Image Grid.Row="2" Grid.Column="3" Source="{Binding Sponsor10}" Margin="0,0,5,0" HeightRequest="75" />
 
-                <Image Grid.Row="3" Grid.Column="0" Source="{Binding Sponsor11}" Margin="5,0,0,0" WidthRequest="95"/>
-                <Image Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding Sponsor12}" HeightRequest="55"/>
-                <Image Grid.Row="3" Grid.Column="3" Source="{Binding Sponsor13}" Margin="0,0,5,0" WidthRequest="95" />
+                <Image Grid.Row="3" Grid.Column="0" Source="{Binding Sponsor11}" Margin="5,0,0,0" HeightRequest="75"/>
+                <Image Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" Source="{Binding Sponsor12}" HeightRequest="50"/>
+                <Image Grid.Row="3" Grid.Column="3" Source="{Binding Sponsor13}" Margin="0,0,5,0" HeightRequest="75" />
             </Grid>
         </VerticalStackLayout>
     </ScrollView>
