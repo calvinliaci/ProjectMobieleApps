@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YxLWPIpMXhQLrxnOdqtUrA8Hl4+LrAhL2pWmTLUN+Q+Mpz80lQQJHIz3jqlLufvXI6ugUU3ob78A1wPTIhb4OQ==",
+  "dgSpecHash": "Ujazpn5Z/eO2Emi4kiYkGTDbDRX0Qri52Jjgq4U6oyJGw/CyXYVlnhXhPACcBjWV2MRDbtC1Ny0v+OWX8cc/2A==",
   "success": true,
   "projectFilePath": "D:\\UCLL\\2de Fase Semester 2\\.NET MUAI\\ProjectMobieleApps\\Project Weerstand Koersel\\Project Weerstand Koersel.csproj",
   "expectedPackageFiles": [
@@ -102,6 +102,7 @@
     "C:\\Users\\liaci\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",
+    "C:\\Users\\liaci\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\system.private.uri\\4.3.0\\system.private.uri.4.3.0.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
@@ -141,6 +142,7 @@
     "C:\\Users\\liaci\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\liaci\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",
@@ -212,6 +214,7 @@
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.15\\xamarin.androidx.viewpager.1.0.0.15.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.16\\xamarin.androidx.viewpager2.1.0.0.16.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.androidx.window\\1.0.0.10\\xamarin.androidx.window.1.0.0.10.nupkg.sha512",
+    "C:\\Users\\liaci\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.google.android.material\\1.7.0\\xamarin.google.android.material.1.7.0.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.google.crypto.tink.android\\1.7.0.1\\xamarin.google.crypto.tink.android.1.7.0.1.nupkg.sha512",
     "C:\\Users\\liaci\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.10\\xamarin.google.guava.listenablefuture.1.0.0.10.nupkg.sha512",

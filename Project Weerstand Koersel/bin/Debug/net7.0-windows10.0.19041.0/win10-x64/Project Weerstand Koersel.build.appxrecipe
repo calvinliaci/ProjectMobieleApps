@@ -10,31 +10,31 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>c57c5105-f667-465c-a875-8bb63a48601e</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Project Weerstand Koersel.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Project Weerstand Koersel.runtimeconfig.json">
       <PackagePath>Project Weerstand Koersel.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Project Weerstand Koersel.dll">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Project Weerstand Koersel.dll">
       <PackagePath>Project Weerstand Koersel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Project Weerstand Koersel.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.4\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
@@ -706,6 +706,12 @@
     <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\system.runtime.interopservices.windowsruntime\4.3.0\lib\netstandard1.3\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\xam.plugin.media\5.0.1\lib\netstandard2.0\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\xamarin.essentials\1.5.2\lib\netstandard2.0\Xamarin.Essentials.dll">
+      <PackagePath>Xamarin.Essentials.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
@@ -715,7 +721,7 @@
     <AppxPackagedFile Include="C:\Users\liaci\.nuget\packages\runtime.win7-x64.runtime.native.system.io.compression\4.3.0\runtimes\win7-x64\native\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Project Weerstand Koersel.deps.json">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Project Weerstand Koersel.deps.json">
       <PackagePath>Project Weerstand Koersel.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
@@ -727,193 +733,196 @@
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Core.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashlogoSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashlogoSplashScreen.scale-100.png">
       <PackagePath>splashlogoSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashlogoSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashlogoSplashScreen.scale-125.png">
       <PackagePath>splashlogoSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashlogoSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashlogoSplashScreen.scale-150.png">
       <PackagePath>splashlogoSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashlogoSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashlogoSplashScreen.scale-200.png">
       <PackagePath>splashlogoSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashlogoSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashlogoSplashScreen.scale-400.png">
       <PackagePath>splashlogoSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\auth.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\auth.scale-100.png">
       <PackagePath>auth.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\ball.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\ball.scale-100.png">
       <PackagePath>ball.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group.scale-100.png">
       <PackagePath>group.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
       <PackagePath>home.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.ico">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.ico">
       <PackagePath>icon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-100.png">
       <PackagePath>iconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-125.png">
       <PackagePath>iconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-150.png">
       <PackagePath>iconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-200.png">
       <PackagePath>iconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-400.png">
       <PackagePath>iconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>iconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>iconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>iconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>iconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>iconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>iconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>iconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>iconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>iconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>iconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-100.png">
       <PackagePath>iconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-125.png">
       <PackagePath>iconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-150.png">
       <PackagePath>iconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-200.png">
       <PackagePath>iconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-400.png">
       <PackagePath>iconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-16.png">
       <PackagePath>iconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-24.png">
       <PackagePath>iconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-256.png">
       <PackagePath>iconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-32.png">
       <PackagePath>iconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-48.png">
       <PackagePath>iconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-100.png">
       <PackagePath>iconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-125.png">
       <PackagePath>iconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-150.png">
       <PackagePath>iconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-200.png">
       <PackagePath>iconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-400.png">
       <PackagePath>iconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-100.png">
       <PackagePath>iconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-125.png">
       <PackagePath>iconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-150.png">
       <PackagePath>iconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-200.png">
       <PackagePath>iconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-400.png">
       <PackagePath>iconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-100.png">
       <PackagePath>iconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-125.png">
       <PackagePath>iconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-150.png">
       <PackagePath>iconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-200.png">
       <PackagePath>iconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-400.png">
       <PackagePath>iconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-100.png">
       <PackagePath>iconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-125.png">
       <PackagePath>iconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-150.png">
       <PackagePath>iconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-200.png">
       <PackagePath>iconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-400.png">
       <PackagePath>iconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\Project Koersel\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\jos.scale-100.jpg">
+      <PackagePath>jos.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UCLL\2de Fase Semester 2\.NET MUAI\ProjectMobieleApps\Project Weerstand Koersel\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

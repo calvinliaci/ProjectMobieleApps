@@ -1,6 +1,8 @@
 ﻿using CommunityToolkit.Mvvm.Input;
 using Firebase.Database;
 using Firebase.Database.Query;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
 using Project_Weerstand_Koersel.Model;
 using Project_Weerstand_Koersel.View;
 using System;
@@ -26,6 +28,7 @@ namespace Project_Weerstand_Koersel.ViewModel
         public ChangeStatsPageViewModel()
         {
             Title = "Speler toevoegen";
+            Image = "https://firebasestorage.googleapis.com/v0/b/project-weerstand-koersel.appspot.com/o/players%2FBelien%20Dries.jpg?alt=media&token=b2e714ff-e343-4433-9202-273b9ff72d2a";
         }
 
         [RelayCommand]
@@ -43,6 +46,7 @@ namespace Project_Weerstand_Koersel.ViewModel
                 TotalGames = "Wedstrijden: " + TotalGames,
                 TotalGoals = "Goals: " + TotalGoals,
                 TotalAssists = "Assists: " + TotalAssists,
+                Image = Image,
             });
 
             Shell.Current.GoToAsync(nameof(PlayersPage));
