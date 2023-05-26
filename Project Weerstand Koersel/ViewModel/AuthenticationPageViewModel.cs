@@ -42,8 +42,7 @@ namespace Project_Weerstand_Koersel.ViewModel
             }
             catch (Exception ex)
             {
-                await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
-                throw;
+                await App.Current.MainPage.DisplayAlert("Alert", "Verkeerde inlog gegevens! \r\nProbeer opnieuw!", "OK");
             }
         }
     }

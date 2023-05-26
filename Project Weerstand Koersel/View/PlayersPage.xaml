@@ -51,7 +51,6 @@
                                 </ScrollView>
                                 <Button Text="Toon spelers" Command="{Binding GetSpelersCommand}" Grid.Row="1" Style="{StaticResource ButtonOutline}" Margin="0,8,0,40" />
 
-
                                 <ActivityIndicator IsVisible="{Binding IsBusy}"
                                                    IsRunning="{Binding IsBusy}"
                                                    HorizontalOptions="Fill"
