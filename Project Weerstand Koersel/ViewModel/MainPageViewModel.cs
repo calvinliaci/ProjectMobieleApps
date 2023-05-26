@@ -22,7 +22,7 @@ namespace Project_Weerstand_Koersel.ViewModel
         {
             this.sponsorService = sponsorService;
 
-            Title = "Wedstrijden";
+            Title = "Startpagina";
 
             Sponsors = new ObservableCollection<Sponsor>();
 

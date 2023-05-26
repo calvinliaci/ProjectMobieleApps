@@ -12,7 +12,7 @@ namespace Project_Weerstand_Koersel.Service
 {
     internal class MatchService : IMatchService
     {
-        FirebaseClient firebaseClient = new FirebaseClient(baseUrl: "https://project-weerstand-koersel-default-rtdb.europe-west1.firebasedatabase.app/");
+        FirebaseClient firebaseClient = new FirebaseClient(baseUrl: "https://project-weerstand-koersel-default-rtdb.europe-west1.firebasedatabase.app");
 
         public async Task<List<Match>> GetAllMatches()
         {
