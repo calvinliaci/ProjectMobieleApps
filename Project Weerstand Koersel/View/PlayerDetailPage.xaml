@@ -42,7 +42,7 @@
 
 
             <VerticalStackLayout Grid.Row="2" Padding="10" Spacing="10">
-                <Label Style="{StaticResource LargeLabel}" HorizontalOptions="Center" Text="Info" />
+                <Label Style="{StaticResource LargeBoldLabel}" HorizontalOptions="Center" Text="Info" />
                 <Frame HeightRequest="50" Style="{StaticResource statsView}">
                     <Label Style="{StaticResource MediumLabel}" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Speler.Age}" />
                 </Frame>
@@ -53,7 +53,7 @@
                     <Label Style="{StaticResource MediumLabel}" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Speler.Position}" />
                 </Frame>
 
-                <Label Style="{StaticResource LargeLabel}" HorizontalOptions="Center" Text="Statistieken" Margin="0, 5, 0, 0" />
+                <Label Style="{StaticResource LargeBoldLabel}" HorizontalOptions="Center" Text="Statistieken" Margin="0, 5, 0, 0" />
                 <Frame HeightRequest="50" Style="{StaticResource statsView}">
                     <Label Style="{StaticResource MediumLabel}" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Speler.TotalGames}" />
                 </Frame>

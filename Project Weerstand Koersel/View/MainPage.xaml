@@ -41,7 +41,7 @@
                                         <Label Text="Voorzitter" Style="{StaticResource SmallBoldLabel}" HorizontalTextAlignment="End" Margin="60,20,3,2" />
                                         <Label Text="Jos Haegdorens" Style="{StaticResource SmallLabel}" HorizontalTextAlignment="End" Margin="60,0,3,2"/>
                                         <Label Text="0476/41 19 46" Style="{StaticResource SmallLabel}" HorizontalTextAlignment="End" Margin="60,0,3,2" />
-                                        <Label Text="jos.haegdorens@telenet.be"  Style="{StaticResource SmallLabel}" HorizontalTextAlignment="End" Margin="60,0,030" />
+                                        <Label Text="jos.haegdorens@telenet.be"  Style="{StaticResource SmallLabel}" HorizontalTextAlignment="End" Margin="60,0,0,3" />
                                     </VerticalStackLayout>
                                     <Frame BorderColor="{StaticResource DarkBackground}"
                                            HeightRequest="120"
