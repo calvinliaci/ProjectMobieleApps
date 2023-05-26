@@ -27,7 +27,7 @@
                 Grid.Row="1"
                 Margin="0,0,0,-150"
                 BorderColor="{StaticResource DarkBackground}"
-                CornerRadius="50"
+                CornerRadius="25"
                 HasShadow="True"
                 HeightRequest="700">
                 <Grid
@@ -49,10 +49,10 @@
                     <Label
                         Grid.Row="0"
                         FontAttributes="Bold"
-                        Margin="0, 30, 0, 0"
+                        Margin="0, 20, 0, 0"
                         FontSize="24"
                         HorizontalOptions="CenterAndExpand"
-                        Text="Welkom terug!"
+                        Text="Speler toevoegen"
                         TextColor="{StaticResource DarkBackground}" />
                     <Label
                         Grid.Row="1"
@@ -62,7 +62,7 @@
                         TextColor="{StaticResource DarkBackground}" />
                     <Entry
                         Grid.Row="2"
-                        Margin="0,20,0,0"
+                        Margin="0,30,0,0"
                         HorizontalOptions="FillAndExpand"
                         Placeholder="Email"
                         Text="{Binding Email}"
@@ -78,6 +78,7 @@
                         Grid.Row="4"
                         BackgroundColor="{StaticResource DarkBackground}"
                         Command="{Binding LoginToStatsAsyncCommand}"
+                        Margin="0, 10, 0, 0"
                         CornerRadius="20"
                         Text="Login" />
                 </Grid>
