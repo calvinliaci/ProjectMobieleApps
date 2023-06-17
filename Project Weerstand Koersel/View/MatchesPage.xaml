@@ -19,25 +19,46 @@
                 </Grid.RowDefinitions>
                 <StackLayout Grid.Row="0" HorizontalOptions="Center">
                 </StackLayout>
-
                 <StackLayout Grid.Row="1" Margin="0,0,0,-180">
                     <Frame BorderColor="{StaticResource DarkBackground}"
                            CornerRadius="25"
                            HasShadow="True"
                            HeightRequest="720">
                         <ScrollView VerticalScrollBarVisibility="Never">
-                            <CollectionView ItemsSource="{Binding Matches}" SelectionMode="None" Margin="0,0,0,40">
+                            <CollectionView ItemsSource="{Binding Matches}" 
+                                            SelectionMode="None" Margin="0,0,0,40">
                                 <CollectionView.ItemTemplate>
                                     <DataTemplate x:DataType="model:Match">
                                         <Grid Padding="0, 5,0,5">
-                                            <Frame HeightRequest="100" Style="{StaticResource CardView}" Grid.Row="0">
-                                                <Grid Padding="10" ColumnDefinitions="110,30,*,30,110" RowDefinitions="60,25">
-                                                    <Label Style="{StaticResource SmallLabel}" Text="{Binding HomeTeam}" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Start"/>
-                                                    <Image Source="{Binding HomeTeamImage}" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" Grid.Column="1"/>
-                                                    <Label Style="{StaticResource MediumLabel}" Text="{Binding ScoreSheet}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
-                                                    <Image Source="{Binding AwayTeamImage}" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" Grid.Column="3"/>
-                                                    <Label Style="{StaticResource SmallLabel}" Text="{Binding AwayTeam}" Grid.Column="4" VerticalOptions="Center" HorizontalTextAlignment="End" HorizontalOptions="End"/>
-                                                    <Label Style="{StaticResource MicroLabel}" Text="{Binding Date}" Grid.ColumnSpan="5" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                            <Frame HeightRequest="100" 
+                                                   Style="{StaticResource CardView}" 
+                                                   Grid.Row="0">
+                                                <Grid Padding="10" 
+                                                      ColumnDefinitions="110,30,*,30,110" 
+                                                      RowDefinitions="60,25">
+                                                    <Label Style="{StaticResource SmallLabel}" 
+                                                           Text="{Binding HomeTeam}" Grid.Column="0" 
+                                                           VerticalOptions="Center" 
+                                                           HorizontalOptions="Start"/>
+                                                    <Image Source="{Binding HomeTeamImage}" 
+                                                           WidthRequest="30" HeightRequest="30" 
+                                                           VerticalOptions="Center" Grid.Column="1"/>
+                                                    <Label Style="{StaticResource MediumLabel}" 
+                                                           Text="{Binding ScoreSheet}" 
+                                                           VerticalOptions="Center" 
+                                                           HorizontalOptions="Center" Grid.Column="2"/>
+                                                    <Image Source="{Binding AwayTeamImage}" 
+                                                           WidthRequest="30" HeightRequest="30" 
+                                                           VerticalOptions="Center" Grid.Column="3"/>
+                                                    <Label Style="{StaticResource SmallLabel}"
+                                                           Text="{Binding AwayTeam}" Grid.Column="4" 
+                                                           VerticalOptions="Center" 
+                                                           HorizontalTextAlignment="End" 
+                                                           HorizontalOptions="End"/>
+                                                    <Label Style="{StaticResource MicroLabel}" 
+                                                           Text="{Binding Date}" Grid.ColumnSpan="5" 
+                                                           Grid.Row="1" HorizontalOptions="Center" 
+                                                           VerticalOptions="Center"/>
                                                 </Grid>
                                             </Frame>
                                         </Grid>
@@ -45,7 +66,6 @@
                                 </CollectionView.ItemTemplate>
                             </CollectionView>
                         </ScrollView>
-
                     </Frame>
                 </StackLayout>
             </Grid>

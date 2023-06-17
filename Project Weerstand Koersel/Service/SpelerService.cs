@@ -12,7 +12,8 @@ namespace Project_Weerstand_Koersel.Service
 {
     public class SpelerService : ISpelerService
     {
-        FirebaseClient firebaseClient = new FirebaseClient(baseUrl: "https://project-weerstand-koersel-default-rtdb.europe-west1.firebasedatabase.app/");
+        FirebaseClient firebaseClient = new FirebaseClient(baseUrl:
+            "https://project-weerstand-koersel-default-rtdb.europe-west1.firebasedatabase.app/");
 
         public async Task<List<Speler>> GetAllSpelers()
         {

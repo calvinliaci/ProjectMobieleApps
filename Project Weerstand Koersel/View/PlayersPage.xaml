@@ -12,12 +12,7 @@
             <Grid BackgroundColor="{StaticResource Primary}"
                   HorizontalOptions="FillAndExpand"
                   VerticalOptions="FillAndExpand">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                <StackLayout Grid.Row="0" HorizontalOptions="Center">
-                </StackLayout>
+
 
                 <StackLayout Grid.Row="1" Margin="0,0,0,-180">
                     <Frame BorderColor="{StaticResource DarkBackground}"
@@ -34,10 +29,14 @@
                                                 <Grid Padding="7">
                                                     <Frame HeightRequest="125" Style="{StaticResource CardView}">
                                                         <Frame.GestureRecognizers>
-                                                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PlayersPageViewModel}}, Path=GoToDetailsCommand}" CommandParameter="{Binding .}" />
+                                                            <TapGestureRecognizer Command="{Binding Source={RelativeSource 
+                                                                AncestorType={x:Type viewmodel:PlayersPageViewModel}}, 
+                                                                Path=GoToDetailsCommand}" CommandParameter="{Binding .}"/>
                                                         </Frame.GestureRecognizers>
                                                         <Grid Padding="0" ColumnDefinitions="125, *">
-                                                            <Image Aspect="AspectFit" Source="{Binding Image}" WidthRequest="110" HeightRequest="110" />
+                                                            <Image Aspect="AspectFit" Source="{Binding Image}" 
+                                                                   WidthRequest="110" 
+                                                                   HeightRequest="110" />
                                                             <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Padding="10">
                                                                 <Label Style="{StaticResource LargeLabel}" Text="{Binding Name}" />
                                                                 <Label Style="{StaticResource SmallLabel}" Text="{Binding PositionSmall}" />
@@ -49,7 +48,8 @@
                                         </CollectionView.ItemTemplate>
                                     </CollectionView>
                                 </ScrollView>
-                                <Button Text="Toon spelers" Command="{Binding GetSpelersCommand}" Grid.Row="1" Style="{StaticResource ButtonOutline}" Margin="0,8,0,40" />
+                                <Button Text="Toon spelers" Command="{Binding GetSpelersCommand}" Grid.Row="1" 
+                                        Style="{StaticResource ButtonOutline}" Margin="0,8,0,40" />
 
                                 <ActivityIndicator IsVisible="{Binding IsBusy}"
                                                    IsRunning="{Binding IsBusy}"
