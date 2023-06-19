@@ -9,7 +9,6 @@
     
     <ScrollView>
         <Grid RowDefinitions="Auto,Auto,*">
-
             <BoxView
                 BackgroundColor="{StaticResource Primary}"
                 Grid.RowSpan="2"
@@ -31,7 +30,6 @@
                         Source="{Binding Speler.Image}"
                         WidthRequest="160"/>
             </Border>
-
             <Label Style="{StaticResource LargeLabel}" 
                     Grid.Row="1"
                     TextColor="White"
@@ -39,33 +37,42 @@
                     Text="{Binding Speler.Name}"
                     HorizontalOptions="Center"
                     Margin="0,0,0,8"/>
-
-
             <VerticalStackLayout Grid.Row="2" Padding="10" Spacing="10">
-                <Label Style="{StaticResource LargeBoldLabel}" HorizontalOptions="Center" Text="Info" />
+                <Label Style="{StaticResource LargeBoldLabel}" 
+                       HorizontalOptions="Center" Text="Info" />
                 <Frame HeightRequest="50" Style="{StaticResource statsView}">
-                    <Label Style="{StaticResource MediumLabel}" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Speler.Age}" />
+                    <Label Style="{StaticResource MediumLabel}" 
+                           HorizontalOptions="Center" VerticalOptions="Center" 
+                           Text="{Binding Speler.Age}" />
                 </Frame>
                 <Frame HeightRequest="50" Style="{StaticResource statsView}">
-                    <Label Style="{StaticResource MediumLabel}" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Speler.JerseyNumber}" />
+                    <Label Style="{StaticResource MediumLabel}" 
+                           HorizontalOptions="Center" VerticalOptions="Center" 
+                           Text="{Binding Speler.JerseyNumber}" />
                 </Frame>
                 <Frame HeightRequest="50" Style="{StaticResource statsView}">
-                    <Label Style="{StaticResource MediumLabel}" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Speler.Position}" />
-                </Frame>
-
-                <Label Style="{StaticResource LargeBoldLabel}" HorizontalOptions="Center" Text="Statistieken" Margin="0, 5, 0, 0" />
-                <Frame HeightRequest="50" Style="{StaticResource statsView}">
-                    <Label Style="{StaticResource MediumLabel}" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Speler.TotalGames}" />
-                </Frame>
-                <Frame HeightRequest="50" Style="{StaticResource statsView}">
-                    <Label Style="{StaticResource MediumLabel}" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Speler.TotalGoals}" />
-                </Frame>
-                <Frame HeightRequest="50" Style="{StaticResource statsView}">
-                    <Label Style="{StaticResource MediumLabel}" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Speler.TotalAssists}" />
+                    <Label Style="{StaticResource MediumLabel}" 
+                           HorizontalOptions="Center" VerticalOptions="Center" 
+                           Text="{Binding Speler.Position}" />
                 </Frame>
 
-
-
+                <Label Style="{StaticResource LargeBoldLabel}" 
+                       HorizontalOptions="Center" Text="Statistieken" Margin="0, 5, 0, 0" />
+                <Frame HeightRequest="50" Style="{StaticResource statsView}">
+                    <Label Style="{StaticResource MediumLabel}" 
+                           HorizontalOptions="Center" VerticalOptions="Center" 
+                           Text="{Binding Speler.TotalGames}" />
+                </Frame>
+                <Frame HeightRequest="50" Style="{StaticResource statsView}">
+                    <Label Style="{StaticResource MediumLabel}" 
+                           HorizontalOptions="Center" VerticalOptions="Center" 
+                           Text="{Binding Speler.TotalGoals}" />
+                </Frame>
+                <Frame HeightRequest="50" Style="{StaticResource statsView}">
+                    <Label Style="{StaticResource MediumLabel}" 
+                           HorizontalOptions="Center" VerticalOptions="Center" 
+                           Text="{Binding Speler.TotalAssists}" />
+                </Frame>
             </VerticalStackLayout>
         </Grid>
     </ScrollView>

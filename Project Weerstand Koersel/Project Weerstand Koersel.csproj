@@ -63,10 +63,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="View\AddPlayerPage.xaml.cs">
+      <DependentUpon>AddPlayerPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <MauiXaml Update="View\AuthenticationPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="View\ChangeStatsPage.xaml">
+    <MauiXaml Update="View\AddPlayerPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
     <MauiXaml Update="View\MatchesPage.xaml">

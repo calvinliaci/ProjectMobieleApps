@@ -4,6 +4,12 @@
         <name>Project Weerstand Koersel</name>
     </assembly>
     <members>
+        <member name="F:Project_Weerstand_Koersel.ViewModel.AddPlayerPageViewModel.sendPlayerToDatabaseCommand">
+            <summary>The backing field for <see cref="P:Project_Weerstand_Koersel.ViewModel.AddPlayerPageViewModel.SendPlayerToDatabaseCommand"/>.</summary>
+        </member>
+        <member name="P:Project_Weerstand_Koersel.ViewModel.AddPlayerPageViewModel.SendPlayerToDatabaseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Project_Weerstand_Koersel.ViewModel.AddPlayerPageViewModel.SendPlayerToDatabase"/>.</summary>
+        </member>
         <member name="F:Project_Weerstand_Koersel.ViewModel.AuthenticationPageViewModel.loginToStatsAsyncCommand">
             <summary>The backing field for <see cref="P:Project_Weerstand_Koersel.ViewModel.AuthenticationPageViewModel.LoginToStatsAsyncCommand"/>.</summary>
         </member>
@@ -18,12 +24,6 @@
         </member>
         <member name="P:Project_Weerstand_Koersel.ViewModel.BaseViewModel.IsBusy">
             <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.BaseViewModel.isBusy"/>
-        </member>
-        <member name="F:Project_Weerstand_Koersel.ViewModel.ChangeStatsPageViewModel.sendPlayerToDatabaseCommand">
-            <summary>The backing field for <see cref="P:Project_Weerstand_Koersel.ViewModel.ChangeStatsPageViewModel.SendPlayerToDatabaseCommand"/>.</summary>
-        </member>
-        <member name="P:Project_Weerstand_Koersel.ViewModel.ChangeStatsPageViewModel.SendPlayerToDatabaseCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Project_Weerstand_Koersel.ViewModel.ChangeStatsPageViewModel.SendPlayerToDatabase"/>.</summary>
         </member>
         <member name="P:Project_Weerstand_Koersel.ViewModel.PlayerDetailPageViewModel.Speler">
             <inheritdoc cref="F:Project_Weerstand_Koersel.ViewModel.PlayerDetailPageViewModel.speler"/>

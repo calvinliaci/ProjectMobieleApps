@@ -16,16 +16,13 @@ namespace Project_Weerstand_Koersel.ViewModel
     public partial class AuthenticationPageViewModel : BaseViewModel
     {
         public string webApiKey = "AIzaSyAG23_bOUdOb2ITOBdP0JbimaqKdoc2aGw";
-
         public string Email { get; set; }
         public string UserPassword { get; set; }
-
 
         public AuthenticationPageViewModel()
         {
             Title = "";
         }
-
 
         [RelayCommand]
         private async void LoginToStatsAsync() 
@@ -38,11 +35,12 @@ namespace Project_Weerstand_Koersel.ViewModel
                 var content = await auth.GetFreshAuthAsync();
                 var serializedContent = JsonConvert.SerializeObject(content);
                 Preferences.Set("FreshFirebaseToken", serializedContent);
-                await Shell.Current.GoToAsync(nameof(ChangeStatsPage), true);
+                await Shell.Current.GoToAsync(nameof(AddPlayerPage), true);
             }
             catch (Exception ex)
             {
-                await App.Current.MainPage.DisplayAlert("Alert", "Verkeerde inlog gegevens! \r\nProbeer opnieuw!", "OK");
+                await App.Current.MainPage.DisplayAlert("Alert", 
+                    "Verkeerde inlog gegevens! \r\nProbeer opnieuw!", "OK");
             }
         }
     }

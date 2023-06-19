@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_Weerstand_Koersel.View.AddPlayerPage"
+             xmlns:viewmodel="clr-namespace:Project_Weerstand_Koersel.ViewModel"
+             Title="{Binding Title}">
+    <ContentPage.Content>
+        <Grid
+            BackgroundColor="{StaticResource Primary}"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Frame
+                Grid.Row="1"
+                Margin="0,0,0,-150"
+                BorderColor="{StaticResource DarkBackground}"
+                CornerRadius="50"
+                HasShadow="True"
+                HeightRequest="700">
+                <Grid
+                    Padding="20,50,20,0"
+                    HorizontalOptions="FillAndExpand"
+                    RowSpacing="20"
+                    VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Label
+                        Grid.Row="0"
+                        FontAttributes="Bold"
+                        Margin="0, -55, 0, 0"
+                        FontSize="24"
+                        HorizontalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        Text="Vul in om een speler toe te voegen!"
+                        TextColor="{StaticResource DarkBackground}" />
+                    <Image Source="{Binding Image}"
+                           Grid.Row="1"
+                           Margin="0,-10,0,0"
+                           HeightRequest="120" 
+                           WidthRequest="100">
+                    </Image>
+                    <Button
+                        Grid.Row="2"
+                        WidthRequest="150"
+                        Margin="0,-10,0,0"
+                        BackgroundColor="{StaticResource DarkBackground}"
+                        Command="{Binding GoToPhotosCommand}"
+                        CornerRadius="20"
+                        Text="Kies een foto" />
+                    <Entry
+                        Grid.Row="3"
+                        Margin="0,-10,0,0"
+                        x:Name="name"
+                        HorizontalOptions="FillAndExpand"
+                        Placeholder="Full Name"
+                        Text="{Binding FullName}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="4"
+                        HorizontalOptions="FillAndExpand"
+                        Margin="0,-8,0,0"
+                        Placeholder="Age"
+                        Text="{Binding Age}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="5"
+                        Margin="0,-8,0,0"
+                        HorizontalOptions="FillAndExpand"
+                        Placeholder="Posisiton"
+                        Text="{Binding Position}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="6"
+                        HorizontalOptions="FillAndExpand"
+                        Margin="0,-8,0,0"
+                        Placeholder="Rugnummer"
+                        Text="{Binding JerseyNumber}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="7"
+                        Margin="0,-8,0,0"
+                        HorizontalOptions="FillAndExpand"
+                        Placeholder="Aantal Wedstrijden"
+                        Text="{Binding TotalGames}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="8"
+                        HorizontalOptions="FillAndExpand"
+                        Margin="0,-8,0,0"                        
+                        Placeholder="Aantal Doelpunten"
+                        Text="{Binding TotalGoals}"
+                        VerticalOptions="FillAndExpand" />
+                    <Entry
+                        Grid.Row="9"
+                        HorizontalOptions="FillAndExpand"
+                        Margin="0,-8,0,-30"                        
+                        Placeholder="Aantal Assisten"
+                        Text="{Binding TotalAssists}"
+                        VerticalOptions="FillAndExpand" />
+                    <Button
+                        Grid.Row="11"
+                        BackgroundColor="{StaticResource DarkBackground}"
+                        Command="{Binding SendPlayerToDatabaseCommand}"
+                        CornerRadius="20"
+                        Text="Toevoegen" />
+                </Grid>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

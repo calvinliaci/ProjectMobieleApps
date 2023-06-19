@@ -31,7 +31,6 @@ namespace Project_Weerstand_Koersel.ViewModel
         }
 
         [RelayCommand]
-
         async Task GetSpelersAsync()
         {
             if (IsBusy)
@@ -41,8 +40,7 @@ namespace Project_Weerstand_Koersel.ViewModel
             {
                 if (connectivity.NetworkAccess != NetworkAccess.Internet)
                 {
-                    await Shell.Current.DisplayAlert("No connectivity!",
-                        $"Please check internet and try again.", "OK");
+                    await Shell.Current.DisplayAlert("No connectivity!",$"Please check internet and try again.", "OK");
                     return;
                 }
                 IsBusy = true;

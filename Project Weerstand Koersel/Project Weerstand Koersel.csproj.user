@@ -14,7 +14,7 @@
     <MauiXaml Update="View\AuthenticationPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="View\ChangeStatsPage.xaml">
+    <MauiXaml Update="View\AddPlayerPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="View\MatchesPage.xaml">
